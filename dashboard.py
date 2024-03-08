@@ -3,7 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load data from the file day_aul
-day_aul = pd.read_csv('C:/Users/user/Downloads/assignment_dashboard_analisis/dashboard/all_data.csv')  # Ganti 'day_aul.csv' dengan nama file yang sesuai
+day_aul = pd.read_csv('C:/Users/user/Downloads/assignment_dashboard_analisis/dashboard/all_data.csv')
+
 
 # Streamlit App
 st.title('Dashboard Analisis Pengguna Sepeda')
